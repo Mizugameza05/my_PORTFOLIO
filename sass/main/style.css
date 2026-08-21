@@ -497,35 +497,38 @@ html {
 }
 .hero__image {
   width: 13rem;
+  height: 13rem;
   margin-left: 2rem;
   display: flex;
   justify-content: end;
+
+  background-image: url("/assets/Guri.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 50%;
+  box-shadow: #08fbd2 0px 0px 2rem;
 }
+
 @media (max-width: 780px) {
   .hero__image {
     margin-left: 0;
+    width: 10rem;
+    height: 10rem;
   }
 }
+
 @media (max-width: 570px) {
   .hero__image {
     justify-content: center;
   }
 }
-.hero__image img {
-  width: 12rem;
-  opacity: 0;
-  border-radius: 50%;
-  box-shadow: #08fbd2 0px 0px 2rem;
-  animation: fade 3s ease-in forwards, float 3s ease-in-out infinite;
-}
-@media (max-width: 780px) {
-  .hero__image img {
-    width: 10rem;
-  }
-}
+
 @media (max-width: 360px) {
-  .hero__image img {
+  .hero__image {
     width: 9rem;
+    height: 9rem;
   }
 }
 .hero__info {

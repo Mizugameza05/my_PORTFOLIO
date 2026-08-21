@@ -316,7 +316,7 @@ for (let i = 0; i < skills.length; i++) {
 
 // Typed JavaScript
 const typed = new Typed("#typed", {
-    strings: ["Frontend Web Developer", "Custom ROM Maintainer", "Music Lover", "Linux Lover"],
+    strings: ["Frontend Wordpress Dev", "Android Enthusiast", "Linux Lover", "Music Lover"],
 
     typeSpeed: 80,
     backSpeed: 80,
